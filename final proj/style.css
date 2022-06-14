@@ -1,0 +1,145 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+header {
+	background-image: url(assets/motocycle01.jpg);
+	background-position: 0% center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+header h1 {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 800;
+	font-size: 70px;
+	color: #FFFFFF;
+	text-align: left;
+	text-shadow: 0px 0px 6px #000000;
+	text-indent: 0px;
+	padding-left: 40px;
+}
+nav {
+	font-family: 'Noto Sans TC', sans-serif;
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	line-height: 22px;
+	align-items: center;
+	background-color: #6D5B51;
+}
+nav ul {
+	margin-right: 0px;
+	line-height: 22px;
+}
+nav ul li {
+	display: inline;
+	margin-left: 10px;
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 22px;
+	margin-right: 10px;
+}
+body {
+	font-family: 'Noto Sans TC', sans-serif;
+}
+nav a:link  {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+nav a:visited {
+	color: #B4841B;
+}
+nav a:hover {
+}
+article {
+	width: 100%;
+	padding-top: 60px;
+	text-align: center;
+}
+article h2 {
+	font-size: 28px;
+	text-align: left;
+	padding-left: 10px;
+	background-color: #B39E94;
+	line-height: 60px;
+	width: auto;
+	border-radius: 10px 23px 4px 10px;
+}
+.container1 {
+	width: 70%;
+	height: 400px;
+	display: flex;
+	padding-top: 20px;
+	justify-content: center;
+	padding-left: 30px;
+}
+
+.container1 .left  {
+	font-size: 20px;
+	text-align: left;
+	line-height: 25px;
+	flex: 1;
+	-webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;
+}
+.container1 .right {
+	flex: 1;
+	-webkit-transition: all 500ms ease-in-out 0s;
+	-o-transition: all 500ms ease-in-out 0s;
+	transition: all 500ms ease-in-out 0s;
+}
+.container2 {
+	width: 70%;
+	height: 400px;
+	display: flex;
+	padding-top: 20px;
+	justify-content: center;
+	padding-left: 30px;
+}
+
+.container2 .left {
+	font-size: 20px;
+	text-align: left;
+	line-height: 25px;
+	flex: 1;
+	-webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;
+}
+.container2 .right {
+	flex: 1;
+	-webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;
+}
+.container3 {
+	width: 70%;
+	height: 400px;
+	display: flex;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+.container3 .left {
+	font-size: 20px;
+	text-align: left;
+	line-height: 25px;
+	-webkit-transition: all 500ms ease-in-out 0s;
+	-o-transition: all 500ms ease-in-out 0s;
+	transition: all 500ms ease-in-out 0s;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.container3 .right {
+	flex: 1;
+	-webkit-transition: all 500ms ease-in-out 0s;
+	-o-transition: all 500ms ease-in-out 0s;
+	transition: all 500ms ease-in-out 0s;
+	margin-left: 0px;
+	padding-left: 0px;
+}
